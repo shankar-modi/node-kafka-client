@@ -1,0 +1,17 @@
+{
+  "name": "kafka-client",
+  "version": "1.0.0",
+  "description": "NodeJs Kafka Client",
+  "main": "index.js",
+  "scripts": {
+	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shankar Modi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "kafka-node": "^1.6.2"
+  }
+}
